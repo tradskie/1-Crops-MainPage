@@ -1903,6 +1903,7 @@ ul.menu li:first-child {
 
 .box.feature {
   padding: 0;
+  box-shadow: -1px -1px 11px 0px black, 1px 1px rgb(61 61 61);
 }
 
 .box.feature .inner {
