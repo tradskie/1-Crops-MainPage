@@ -177,36 +177,15 @@ html {
 }
 
 body {
-  background: url("../images/cropsbackground.jpg");
-  background-image: -moz-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.05),
-      rgba(0, 0, 0, 0)
-    ),
-    url("images/bg01.png");
-  background-image: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.05),
-      rgba(0, 0, 0, 0)
-    ),
-    url("images/bg01.png");
-  background-image: -ms-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.05),
-      rgba(0, 0, 0, 0)
-    ),
-    url("images/bg01.png");
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)),
-    url("images/bg01.png");
-  background-color: #cee5fd;
-  background-position: top left, top left;
-  background-repeat: repeat-x, repeat;
-  background-size: 100% 30em, auto;
+  background: url(/images/cropsbackground.jpg);
+  background-repeat: no-repeat;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   color: #696969;
   font-weight: 300;
   line-height: 2.25em;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 body.is-preload *,
@@ -319,6 +298,8 @@ dl,
 table {
   margin-bottom: 2em;
   color: black;
+  font-weight: 800;
+  font-size: 25px;
 }
 
 /* Container */
