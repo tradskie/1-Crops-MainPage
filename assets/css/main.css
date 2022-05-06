@@ -177,7 +177,7 @@ html {
 }
 
 body {
-  background: url("../img/cropsbackground.jpg");
+  background: url("../images/cropsbackground.jpg");
   background-image: -moz-linear-gradient(
       top,
       rgba(0, 0, 0, 0.05),
